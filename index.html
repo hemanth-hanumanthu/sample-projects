@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Information Form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Personal Information Form</h1>
+<h2>General Info</h2>
+<hr>
+
+
+    <label for="full-name">Name</label>
+<div>
+  <input type="text" id="first-name" name="first-name" placeholder="First Name" style= "width: 44%;" required>
+  <input type="text" id="last-name" name="last-name" placeholder="Last Name" style= "width: 44%;" required>
+</div>
+
+
+<label for="dob">Date of Birth</label>
+<div>
+    <input type="date" id="dob" name="dob" style= "width: 44%;" required>
+</div>
+  
+
+<label>Gender</label>
+<div>
+  <input type="radio" id="male" name="gender" value="male" required>
+  <label for="male" style="padding: 40px;">Male</label>
+  
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female" style="padding: 40px;">Female</label>
+  
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other" style="padding: 40px;">Other</label>
+</div>
+
+
+<label for="marital-status">Marital Status</label>
+<div>
+  <input type="text" id="marital-status" name="marital-status" style= "width: 93%;">
+</div>
+
+
+<label for="nationality">Nationality</label>
+<div>
+  <input type="text" id="nationality" name="nationality" style= "width: 93%;">
+</div>
+
+
+<label for="Address">Address</label>
+<div>
+  <input type="text" id="street-address" name="street-address" placeholder="Street Address" style= "width: 93%;">
+</div>
+<div>
+  <input type="text" id="address-line2" name="address-line2" placeholder="Address Line 2" style= "width: 93%;">
+</div>
+<div>
+  <input type="text" id="city" name="city" placeholder="City" style= "width: 44%;">
+
+  <input type="text" id="state" name="state" placeholder="State/Region/Province" style= "width: 44%;">
+</div>
+<div>
+  <input type="text" id="zip-code" name="zip-code" placeholder="Postal/Zip Code" style= "width: 44%;">
+
+  <select id="country" name="country" style= "width: 47%;" required>
+    <option value="">Country</option>
+    <option value="IN">India</option>
+    <option value="GN">Germany</option>
+    <option value="US">USA</option>
+    <option value="UK">UK</option>
+  </select>
+</div>
+
+
+<label for="email">Email Address</label>
+<div>
+  <input type="email" id="email" name="email" required style= "width: 93%;">
+</div>
+
+
+<label for="phone">Phone Number</label>
+<div>
+  <input type="tel" id="phone" name="phone" required style= "width: 93%;">
+</div>
+
+<div class="submitCenter">
+  <input type="submit" value="Submit">
+</div>
+
+</form>
+
+</body>
+</html>
